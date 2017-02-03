@@ -1,6 +1,5 @@
-//var app = angular.module('flapperNews', ['ui.router']);
-var app = angular.module('flapperNews', []);
-/*
+var app = angular.module('flapperNews', ['ui.router']);
+
 app.config([
     '$stateProvider',
     '$urlRouterProvider',
@@ -15,7 +14,7 @@ app.config([
         $urlRouterProvider.otherwise('home');
     }
 ]);
-*/
+
 app.controller('MainCtrl', [
     '$scope',
     'posts',
